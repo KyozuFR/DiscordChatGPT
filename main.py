@@ -28,7 +28,7 @@ async def on_message(message):
     return
   # Utilisez GPT-3 pour générer une réponse en utilisant l'historique des messages comme contexte
   prompt = f"{message.author.mention} a dit : {message.content}\n"
-  prompt += "\n tu est un chat bot et la suite est simplement le contexte de la conversation (ta mémoire), utilise seulment les choses pertinente mais pas tout:\n"
+  prompt += "\n tu est un chat bot et la suite est simplement le contexte de la conversation (ta mémoire), utilise seulement les choses pertinente mais pas tout:\n"
   for msg_id, msg_content in message_history.items():
     prompt += f"{msg_content}\n"
   response = openai.Completion.create(engine="text-davinci-003", prompt=prompt, max_tokens=1024).get("choices")[0].text
