@@ -1,24 +1,24 @@
-# DiscordChatGPT
-Allows you to use ChatGPT on your discord server (currently only available in French)
-
-
-## Requirement
-install python
-install py-cord (pip install py-cord)
-install openai (pip install openai)
-Create a [Discord_bot](https://discord.com/developers/docs/getting-started)
-Create an [Openai_Api_Key](https://platform.openai.com/account/api-keys)
-
-
-## Functioning
-change "your_api_key" to your api key and "your_discord_bot_token" to your token
-invite the bot on your server and create a channel named "chatgpt" *(You can change it on line 27 in: "if message.channel.name != "chatgpt":")*
-
-**!!!Be careful, the api is not free and if you have never used it you will probably consume your free trial. Check out: [openai_account_usage](https://platform.openai.com/account/usage)**
-
-
-### Copyright
-***DiscordChatGPT Copyright (C) 2023  Linares Julien***
+# DiscordChatGPT                   
+Allows you to use ChatGPT on your discord server (currently only available in French)                 
+                  
+                      
+## Requirement                    
+install python                 
+install py-cord (pip install py-cord)                    
+install openai (pip install openai)                
+Create a [Discord_bot](https://discord.com/developers/docs/getting-started)                          
+Create an [Openai_Api_Key](https://platform.openai.com/account/api-keys)                            
+                        
+                          
+## Functioning                               
+change "your_api_key" to your api key and "your_discord_bot_token" to your token                          
+invite the bot on your server and create a channel named "chatgpt" *(You can change it on line 27 in: "if message.channel.name != "chatgpt":")*                           
+                                     
+**!!!Be careful, the api is not free and if you have never used it you will probably consume your free trial. Check out: [openai_account_usage](https://platform.openai.com/account/usage)**                                          
+                                        
+                                           
+### Copyright                                  
+***DiscordChatGPT Copyright (C) 2023  Linares Julien***                                
 
     This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
